@@ -1,1 +1,1 @@
-Application réalisée dans le cadre d'un cours en Haute Ecole
+Application réalisée dans le cadre du cours "Applications sur Android" à la Haute Ecole en Hainaut Campus Technique
