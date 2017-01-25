@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".Activity.MainActivity"
+    android:weightSum="1"
+    android:background="#333333"
+    >
+
+    <TextView
+        android:text="Applications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewTitreReg"
+        android:layout_marginBottom="10sp"
+        android:layout_marginTop="2sp"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/bt_main_REG"
+        android:onClick="VueUne"
+        android:text="Asservissement de niveau de liquide"
+        android:layout_height="wrap_content"
+        android:layout_width="350sp"
+        android:layout_marginTop="100sp"
+        android:layout_weight="0.2"
+        android:background="#10A085"
+        android:textColor="#ffffff"
+        />
+
+    <Button
+        android:id="@+id/bt_main_COMP"
+        android:onClick="VueDeux"
+        android:text="Conditionnement de comprimés"
+        android:layout_height="wrap_content"
+        android:layout_width="350sp"
+        android:layout_marginTop="5sp"
+        android:layout_weight="0.2"
+        android:background="#0060B1"
+        android:textColor="#000000"
+        />
+
+    <Button
+        android:id="@+id/bt_main_Liste"
+        android:onClick="VueUsers"
+        android:text="Liste des utilisateurs"
+        android:layout_height="18dp"
+        android:layout_width="351dp"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="5sp"
+        android:background="#FE9147"
+        android:textColor="#ffffff"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:text="Connecté"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewStatut"
+        android:layout_marginBottom="10sp"
+        android:layout_marginTop="2sp"
+        android:textColor="#ffffff"
+        android:background="#333333"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/bt_retour"
+        android:onClick="VueRetour"
+        android:text="Menu"
+        android:layout_height="wrap_content"
+        android:layout_width="102dp"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="120sp"
+        android:textColor="#FFFFFF"
+        android:background="#333333"
+        />
+
+</LinearLayout>

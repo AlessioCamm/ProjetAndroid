@@ -1,0 +1,7 @@
+#Sat Jan 21 15:59:00 CET 2017
+base.0=/Users/alessiocammarata/Documents/Projets Android/ProjetFinal/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_ad81612ac78f62b58f721dd1ff8abee5365d7659
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/alessiocammarata/Documents/Projets Android/ProjetFinal/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4f219e6b5b64635cdc41003af7fcdbe8441be661/classes.dex
+base.1=/Users/alessiocammarata/Documents/Projets Android/ProjetFinal/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4f219e6b5b64635cdc41003af7fcdbe8441be661
+file.0=/Users/alessiocammarata/Documents/Projets Android/ProjetFinal/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_ad81612ac78f62b58f721dd1ff8abee5365d7659/classes.dex

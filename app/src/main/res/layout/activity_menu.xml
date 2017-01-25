@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".Activity.MainActivity"
+    android:weightSum="1"
+    android:background="#333333">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="11dp"
+        app:srcCompat="@mipmap/imageok"
+        android:id="@+id/imageView2"
+        android:src="@mipmap/imageok"
+        android:layout_weight="0.43" />
+
+    <TextView
+        android:text="Bienvenue dans l'application de monitoring"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewTitreReg"
+        android:layout_marginBottom="7sp"
+        android:layout_marginTop="2sp"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/bt_menu_connexionuser"
+        android:onClick="VueUtilisateur"
+        android:text="Connexion"
+        android:layout_height="wrap_content"
+        android:layout_width="350sp"
+        android:layout_marginTop="45sp"
+        android:layout_marginBottom="5sp"
+        android:layout_weight="0.03"
+        android:textColor="#FFFFFF"
+        android:background="#10A085"
+        />
+
+    <Button
+        android:id="@+id/bt_info"
+        android:onClick="Info"
+        android:text="Info"
+        android:layout_height="wrap_content"
+        android:layout_width="350sp"
+        android:textColor="#FFFFFF"
+        android:background="#222222"
+        />
+
+</LinearLayout>

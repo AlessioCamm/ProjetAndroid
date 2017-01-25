@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/alessiocammarata/Documents/Projets Android/ProjetFinal/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/image_final.png",
+        "source": "/Users/alessiocammarata/Documents/Projets Android/ProjetFinal/app/src/main/res/mipmap-xxxhdpi/image_final.png"
+    },
+    {
+        "merged": "/Users/alessiocammarata/Documents/Projets Android/ProjetFinal/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/imageok.png",
+        "source": "/Users/alessiocammarata/Documents/Projets Android/ProjetFinal/app/src/main/res/mipmap-xxxhdpi/imageok.png"
+    },
+    {
+        "merged": "/Users/alessiocammarata/Documents/Projets Android/ProjetFinal/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/Users/alessiocammarata/Documents/Projets Android/ProjetFinal/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    }
+]
